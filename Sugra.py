@@ -124,7 +124,7 @@ def sendMail_(to, content):
 
     # Para esta función activaremos baja serguridad en el gmail
 
-    server.login('andres201999@gmail.com', 'Andres.2017')
+    server.login('email', 'password')
     server.sendmail('pruebasethical97@gmail.com', to, content)
     server.close()
 
